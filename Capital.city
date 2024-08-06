@@ -1,0 +1,48 @@
+class CapitalCity
+{
+	String name="Hyderabad";
+	int population=2500000000;
+	
+	public void place()
+	{
+		System.out.println("City name:"+this.name);
+		System.out.println("population of the City:"+this.population);
+
+	}
+	
+}
+
+class State
+{
+	String name="Telengana";
+	String language;
+	CapitalCity capitalCity=new CapitalCity();
+	
+	State(String language)
+	{
+		this.language=language;
+	}
+	public void place()
+	{
+		System.out.println("state name:"+this.name);
+		System.out.println("Language:"+this.language);
+		capitalCity.swalpaTorsu();
+
+	}
+}
+
+class Country
+{
+	String name="India";
+	String continent="Asia";
+	State state=new State("telugu");
+	
+	public void place()
+	{
+		System.out.println("Country name:"+this.name);
+		System.out.println("continent name:"+this.continent);
+		state.swalpaTorsu();
+	}
+}
+
+
