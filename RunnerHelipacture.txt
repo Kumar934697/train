@@ -1,0 +1,8 @@
+class RunnerHelipacture
+{
+public static void main(String[]args)
+{
+new Helicapter();
+new Helicapter();
+}
+}

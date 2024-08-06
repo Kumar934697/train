@@ -1,0 +1,13 @@
+class Helicapter
+{
+public static void main(String[]args)
+{
+new Helicapter();
+{
+system.out.println("running main in Helicapter");
+{
+new helicapture=new helicapture
+{
+system.out.println(" main in Helicapter");
+}
+}

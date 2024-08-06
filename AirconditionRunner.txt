@@ -1,0 +1,16 @@
+class AirconditionRunner {
+    public static void main(String[] args) {
+        Aircondition = new Aircondition();
+        System.out.println("Starting Aircondition in AirconditionRunner");
+
+        String name = Aircondition.Airconditionname;
+        String shape = Aircondition.AirconditionShape;
+        String weight = Aircondition.AirconditionWeight;
+
+        System.out.println("Aircondition name: " + name);
+        System.out.println("Aircondition shape: " + shape);
+        System.out.println("Aircondition weight: " + weight);
+
+        System.out.println("Ending Aircondition in AirconditionRunner");
+    }
+}
